@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nuclion.io | Premium Web, App & CTV Monetization</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+            body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #020617; color: #f8fafc; }
+            .grid-bg { background-image: linear-gradient(to right, rgba(59, 130, 246, 0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(59, 130, 246, 0.05) 1px, transparent 1px); background-size: 40px 40px; }
+            .glass-card { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.08); transition: all 0.4s ease; }
+            .glass-card:hover { border-color: rgba(59, 130, 246, 0.4); transform: translateY(-5px); }
+            .text-gradient { background: linear-gradient(135deg, #60a5fa 0%, #a855f7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+            .btn-primary { background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%); box-shadow: 0 10px 25px -5px rgba(37, 99, 235, 0.4); }
+        </style>
+        <link rel="icon" type="image/png" href="media/logo.png">
+    </head>
+    <body class="antialiased grid-bg">
+        <nav class="fixed w-full z-50 border-b border-white/5 bg-slate-950/80 backdrop-blur-xl">
+            <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+                <a href="index.html" class="flex items-center gap-3">
+                    <img src="media/logo.png" alt="Nuclion.io" class="h-9 w-9">
+                    <span class="font-bold text-2xl tracking-tight">Nuclion<span class="text-blue-500">.io</span></span>
+                </a>
+                <div class="hidden md:flex space-x-8 text-sm font-medium">
+                    <a href="index.html#why-us" class="text-slate-400 hover:text-white transition">Why Us</a>
+                    <a href="index.html#solutions" class="text-slate-400 hover:text-white transition">Solutions</a>
+                    <a href="publishers.html" class="text-slate-400 hover:text-white transition">Publishers</a>
+                    <a href="index.html#ctv" class="text-blue-400 font-bold">CTV Solutions</a>
+                </div>
+                <div class="flex items-center gap-5">
+                    <a href="#" class="text-slate-400 text-sm hidden sm:block">Login</a>
+                    <a href="signup.html" class="btn-primary text-white px-6 py-2.5 rounded-full font-bold text-sm transition hover:scale-105">Start Monetizing</a>
+                </div>
+            </div>
+        </nav>
+
+    <main class="pt-44 pb-32 max-w-7xl mx-auto px-6">
+        <div class="text-center mb-20">
+            <h1 class="text-6xl font-extrabold mb-6 tracking-tight">Tailored for <span class="text-blue-500">Growth.</span></h1>
+            <p class="text-xl text-slate-400 max-w-2xl mx-auto">Specific solutions for every type of digital inventory. From local sites to global TV networks.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="glass-card p-10 rounded-3xl border-blue-500/20">
+                <div class="w-16 h-16 bg-blue-600/10 text-blue-500 rounded-2xl flex items-center justify-center text-3xl mb-8"><i class="fas fa-globe"></i></div>
+                <h3 class="text-2xl font-bold mb-4 text-white">Web Publishers</h3>
+                <p class="text-slate-400 mb-6">Boost your desktop and mobile web revenue with header bidding and optimized JS tags.</p>
+                <ul class="text-sm space-y-3 text-slate-500 mb-8"><li>• 100% Fill Rate</li><li>• Fast-Loading Tags</li><li>• Real-Time Yield Management</li></ul>
+            </div>
+            <div class="glass-card p-10 rounded-3xl border-purple-500/20">
+                <div class="w-16 h-16 bg-purple-600/10 text-purple-500 rounded-2xl flex items-center justify-center text-3xl mb-8"><i class="fas fa-mobile-alt"></i></div>
+                <h3 class="text-2xl font-bold mb-4 text-white">App Developers</h3>
+                <p class="text-slate-400 mb-6">Monetize your iOS and Android apps with rewarded video and native formats.</p>
+                <ul class="text-sm space-y-3 text-slate-500 mb-8"><li>• App-Ads.txt Support</li><li>• Hybrid Mediation</li><li>• Cross-Platform SDKs</li></ul>
+            </div>
+            <div class="glass-card p-10 rounded-3xl border-blue-500/30">
+                <div class="w-16 h-16 bg-blue-500/10 text-blue-400 rounded-2xl flex items-center justify-center text-3xl mb-8"><i class="fas fa-tv"></i></div>
+                <h3 class="text-2xl font-bold mb-4 text-white">CTV & OTT</h3>
+                <p class="text-slate-400 mb-6">Premium demand for Roku, Samsung TV, and Apple TV channels via SSAI.</p>
+                <ul class="text-sm space-y-3 text-slate-500 mb-8"><li>• SSAI Integration</li><li>• VAST/VPAID Support</li><li>• Direct Brand Deals</li></ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-20 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+            <div class="col-span-1 md:col-span-2">
+                <div class="flex items-center gap-3 mb-6"><img src="media/logo.png" class="h-8 w-8"><span class="font-bold text-2xl">Nuclion<span class="text-blue-500">.io</span></span></div>
+                <p class="text-slate-500 text-sm max-w-sm leading-relaxed">Next-generation monetization for premium publishers across Web, App, and Connected TV.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-6 text-xs uppercase tracking-widest">Company</h4>
+                <ul class="space-y-4 text-sm text-slate-500">
+                    <li><a href="about.html" class="hover:text-blue-400 transition">About Us</a></li>
+                    <li><a href="success.html" class="hover:text-blue-400 transition">Success Stories</a></li>
+                    <li><a href="contact.html" class="hover:text-blue-400 transition">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-6 text-xs uppercase tracking-widest">Resources</h4>
+                <ul class="space-y-4 text-sm text-slate-500">
+                    <li><a href="publishers.html" class="hover:text-blue-400 transition">Publishers</a></li>
+                    <li><a href="adstxt.html" class="hover:text-blue-400 transition">Ads.txt Guide</a></li>
+                    <li><a href="policy.html" class="hover:text-blue-400 transition">Privacy Policy</a></li>
+                    <li><a href="terms.html" class="hover:text-blue-400 transition">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 pt-8 border-t border-white/5 text-slate-600 text-xs flex justify-between">&copy; 2026 Nuclion.io. All rights reserved. <div class="flex gap-4"><a href="#"><i class="fab fa-linkedin"></i></a><a href="#"><i class="fab fa-twitter"></i></a></div></div>
+    </footer>
+</body>
+</html>
